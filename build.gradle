@@ -19,6 +19,11 @@ baseName = 'sample_poc'
 version =  '0.1.0'
 }
 
+task wrapper(type: Wrapper) {
+   gradleVersion = '4.6' //version required
+}
+
+
 repositories {
         
      maven { url "http://repo.maven.apache.org/maven2" }
